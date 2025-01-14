@@ -1,0 +1,62 @@
+
+/* This is comment in CSS*/
+
+header { border: 1px solid red; }
+
+main { border: 1px solid green; }
+
+footer { border: 1px solid purple; }
+
+ /* ul li {
+   background: blue;
+}
+
+header ul li {
+   background: blue;
+} */
+
+
+/* ul li,
+header ul li,
+.main-content {
+   background: blue;
+   border: 1px solid red;
+} */
+
+
+/* main ul li {
+   background: red;
+} */
+
+/* .main-content .list-in-main li {
+   border: 2px solid blue;
+} */
+
+/* DRY Code; Do Not Repeat Yourself */
+
+body 
+
+
+header nav {
+   border: 1px solid purple;
+}
+
+
+header {
+   display: flex; /* makes element flexbox*/
+   flex-direction: row; /*put elements in horizontal row*/
+   justify-content: space-between; /* moves children to the edges*/
+   align-items: center; /* centers children vertically*/
+   padding: 60px 120px;
+}
+
+
+header nav ul li {
+   display: inline;
+}
+
+.logo {
+   font-family: "Plus Jakarta Sans", serif;
+   font-weight: 800;
+   font-size: 20px;
+}
