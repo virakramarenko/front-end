@@ -1,315 +1,355 @@
 body {
-    font-family: "Plus Jakarta Sans", serif;
-    color: #000000; 
-    background: #DEDEDE;
- }
+  font-family: "Plus Jakarta Sans", serif;
+  color: #000000;
+  background: #dedede;
+}
+
+button {
+  cursor: pointer;
+}
 
 /* ---------------------------Header styles*/
 header {
-    display: flex; /* makes element flexbox*/
-    flex-direction: row; /*put elements in horizontal row*/
-    justify-content: space-between; /* moves children to the edges*/
-    align-items: center; /* centers children vertically*/
-    padding: 40px 120px;
+  display: flex; /* makes element flexbox*/
+  flex-direction: row; /*put elements in horizontal row*/
+  justify-content: space-between; /* moves children to the edges*/
+  align-items: center; /* centers children vertically*/
+  padding: 40px 120px;
 }
 nav ul {
-    padding: 0;
+  padding: 0;
 }
 nav ul li {
-    display: inline;
-    padding: 48px;
-    font-weight: 500;
-    font-size: 16px;
-    }
+  display: inline;
+  padding: 48px;
+  font-weight: 500;
+  font-size: 16px;
+}
 .logo {
-    font-weight: 800;
-    font-size: 20px;
- }
- header button {
-    background: none;
-    border-radius: 12px;
-    padding: 12px 12px 14px 14px;
-    font-weight: 600;
-    font-size: 16px;
-    border: 2px solid black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
-header button:hover {  /* mouse over button */
-    background-color: black;
-    color: white;
+  font-weight: 800;
+  font-size: 20px;
+}
+header button {
+  background: none;
+  border-radius: 12px;
+  padding: 12px 12px 14px 14px;
+  font-weight: 600;
+  font-size: 16px;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header button:hover {
+  /* mouse over button */
+  background-color: black;
+  color: white;
 }
 /* ---------------------------Header styles*/
 
 /* ---------------------------Banner styles*/
 .banner-img {
-    width: 100%;
-    max-width: 1260px;
-    height: 360px;
-    border-radius: 32px;
+  width: 100%;
+  max-width: 1260px;
+  height: 360px;
+  border-radius: 32px;
 }
 #Banner {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 120px;
 }
 .About-Me {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    padding: 60px 0px 0px 0px;   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0px 0px 0px;
 }
 #Banner div p {
-    font-size: 20px;
-    font-weight: 500;
-    padding: 32px;
-    display: flex;
-    flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
 }
 h1 {
-    font-size: 86px;
-    font-weight: 500;
+  font-size: 86px;
+  font-weight: 500;
 }
 .italic {
-    font-style: italic;
+  font-style: italic;
 }
 .bolditalic {
-    font-style: italic;
-    font-weight: 700;
+  font-style: italic;
+  font-weight: 700;
 }
 #Banner button {
-    background: none;
-    border-radius: 12px;
-    padding: 20px 20px 32px 32px;
-    font-weight: 600;
-    font-size: 22px;
-    border: 2px solid black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
-#Banner button:hover {   /* mouse over button */
-    background-color: black;
-    color: white;
+  background: none;
+  border-radius: 12px;
+  padding: 20px 20px 32px 32px;
+  font-weight: 600;
+  font-size: 22px;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#Banner button:hover {
+  /* mouse over button */
+  background-color: black;
+  color: white;
 }
 /* ---------------------------Banner styles*/
 
 /* ---------------------------My Works styles*/
 h2 {
-    font-size: 20px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    padding: 120px 0px 0px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  padding: 120px 0px 0px 0px;
 }
 .card-img {
-    width: 100%;
-    max-width: 325px;
-    height: 280px;
-    border-radius: 32px 32px 0px 0px;
+  width: 100%;
+  max-width: 325px;
+  height: 280px;
+  border-radius: 32px 32px 0px 0px;
 }
 h3 {
-    font-size: 22px;
-    font-weight: 600;
-    font-style: italic;  
-    padding: 24px 20px 0px 20px;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: italic;
+  padding: 24px 20px 0px 20px;
 }
 #My-Works #Cards p {
-    font-size: 18px;
-    font-weight: 400;
-    padding: 0px 20px 50px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0px 20px 50px 20px;
 }
 #Cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 120px 120px 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 120px 120px 120px;
 }
 .Squares {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    background: white;
-    border-radius: 32px;
-    margin: 0px 8px 0px 8px;
-    width: 100%;
-    max-width: 325px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: white;
+  border-radius: 32px;
+  margin: 0px 8px 0px 8px;
+  width: 100%;
+  max-width: 325px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* ---------------------------My Works styles*/
 
 /* ---------------------------Work Process styles*/
 #Work-Process {
-    background: #C4C4C4;
-    border-radius: 24px 24px 0px 0px;
+  background: #c4c4c4;
+  border-radius: 24px 24px 0px 0px;
 }
 #Work-Process ul li {
-    font-style: italic;
-    font-weight: 600;
-    font-size: 56px;
-    padding: 60px 0px 20px 0px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 56px;
+  padding: 60px 0px 20px 0px;
 }
 #Work-Process ul p {
-    border-top: 2px solid #000000;
-    font-weight: 400;
-    font-size: 18px;
-    padding: 20px 0px 0px 0px;
+  border-top: 2px solid #000000;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px 0px 0px 0px;
 }
 .Numbers {
-    border-radius: 68%;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    background: none;
-    padding: 0px 12px;
-    border: 2px solid black;
+  border-radius: 68%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  background: none;
+  padding: 0px 12px;
+  border: 2px solid black;
 }
 #Work-Process ul li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items:flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 #Work-Process ul {
-    padding: 0px 120px 120px 120px
+  padding: 0px 120px 120px 120px;
 }
 .circle {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    align-items:baseline;   
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
 }
 /* ---------------------------Work Process styles*/
 
 /* ---------------------------Forms styles*/
 #Forms {
-    background: #2A2A2A;
-    border-radius: 24px 24px 0px 0px;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 120px;
+  background: #2a2a2a;
+  border-radius: 24px 24px 0px 0px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px;
 }
 h4 {
-    font-size: 56px;
-    font-weight: 500;
-    font-style: italic;
+  font-size: 56px;
+  font-weight: 500;
+  font-style: italic;
 }
 #Forms p {
-    font-weight: 400;
-    font-size: 18px;
-    font-style: normal;
-    padding: 40px 0px 0px 0px;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  padding: 40px 0px 0px 0px;
 }
 #Send {
-    font-weight: 600;
-    font-size: 22px;
-    font-style: normal;  
-    background: none;
-    border-radius: 12px;
-    border: 2px solid white;
-    color: white;
-    padding: 16px 24px 20px 20px;
-    box-shadow: 0 4px 8px 0 rgba(249, 247, 247, 0.11), 0 6px 20px 0 rgba(255, 254, 254, 0.132);
+  font-weight: 600;
+  font-size: 22px;
+  font-style: normal;
+  background: none;
+  border-radius: 12px;
+  border: 2px solid white;
+  color: white;
+  padding: 16px 24px 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(249, 247, 247, 0.11),
+    0 6px 20px 0 rgba(255, 254, 254, 0.132);
 }
-#Send:hover {  /* mouse over button */
-    background-color: white;
-    color: black;
+#Send:hover {
+  /* mouse over button */
+  background-color: white;
+  color: black;
 }
 #Forms div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 #name {
-    width: 256px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    background-color: #3F3F3F;
-    color: white;
-    border-radius: 8px;
+  width: 256px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3f3f3f;
+  color: white;
+  border-radius: 8px;
 }
 #e-mail {
-    width: 256px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    background-color: #3F3F3F;
-    color: white;
-    border-radius: 8px;
+  width: 256px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3f3f3f;
+  color: white;
+  border-radius: 8px;
 }
 .Styles {
-    padding: 24px 24px 16px 24px;
+  padding: 24px 24px 16px 24px;
 }
-#message {
-    width: 560px;
-    padding: 12px 20px;
-    margin: 8px 0px 40px 0px;
-    box-sizing: border-box;
-    border: none;
-    background-color: rgb(63, 63, 63);
-    color: #656565;
-    border-radius: 8px;
-    height: 103px;
+#message-input {
+  width: 100%;
+  max-width: 560px;
+  padding: 12px 20px;
+  margin: 8px 0px 40px 0px;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(63, 63, 63);
+  color: #656565;
+  border-radius: 8px;
+  height: 103px;
 }
 /* ---------------------------Forms styles*/
 
 /* ---------------------------Footer styles*/
 footer {
-    background: #2A2A2A;
-    color: #7F7F7F; 
-    border-top: 4px dotted #7F7F7F; 
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 40px 120px;
+  background: #2a2a2a;
+  color: #7f7f7f;
+  border-top: 4px dotted #7f7f7f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 120px;
 }
 footer ul li {
-    font-size: 16px;
-    font-weight: 500;
-    display: inline;
-    padding: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline;
+  padding: 48px;
 }
 a {
-color:#7F7F7F
+  color: #7f7f7f;
 }
 /* ---------------------------Footer styles*/
 
+
+
+
+
+
+
+.hamburger {
+  width: 40px;
+  height: 40px;
+  transform: rotate(90deg);
+  display: none;
+}
+
+.hamburger span {
+  border: 2px solid black;
+  width: 100%;
+  display: inline;
+  min-width: 10px;
+  padding: 1px;
+  background: black;
+  margin: 2px;
+}
+.menu.show {
+  display: flex;
+}
+
+
 @media (max-width: 955px) {
-    nav ul li {
-        display: block;
-        padding: 0px;
-        font-weight: 500;
-        font-size: 16px;
-        }
-    #Cards {
-        flex-direction: column;
-        align-items:center;
-    
-    }
-    .card-img {
-        max-width: 520px;
-    }
-    .Squares {
-        max-width: 520px;
-    }
+  nav ul li {
+    display: block;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  #Cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-img {
+    max-width: 520px;
+  }
+  .Squares {
+    max-width: 520px;
+  }
+  header {
+    padding: 40px;
+  }
 }
 
 @media (max-width: 856px) {
-    footer ul li {
-        font-size: 16px;
-        font-weight: 500;
-        display: block;
-        padding: 0px;
-    }
+
+  .hamburger {
+    display: block;
+  }
+
+  footer ul li {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    padding: 0px;
+  }
+  .menu {
+    display: none;
+  }
+  
 }
-
-
-
-
-
-
-
